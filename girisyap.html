@@ -53,7 +53,7 @@
     
     <div class="card mb-3" style=";padding-left:5%;padding-right:5%;max-width:90%;margin:auto;margin-top: 0.5%;border-radius: 60px;background-color:beige;">
         <div class="row  g-0" style="margin:auto;padding:5%">
-            <div id="frm" >
+            <div id="frm" style="overflow-x:auto;" >
             <form action="giris.php" target="_blank" method="post">
             <table>
                 <tr>
@@ -61,7 +61,7 @@
                         <label>Kullanıcı Adı:</label>
                     </th>
                     <th>
-                        <input type="email" id="kullaniciadi" name="kullaniciadi" pattern=".+@sakarya.edu.tr" size="30"  required />    
+                        <input type="email" id="kullaniciadi" name="kullaniciadi" pattern=".+@sakarya.edu.tr" size="20"  required />    
                     </th>
                 </tr>
                 <tr>
@@ -69,12 +69,12 @@
                         <label>Şifre:</label>
                     </th>
                     <th>
-                        <input type="password" id="sifre" name="sifre" size="30" required/>
+                        <input type="password" id="sifre" name="sifre" size="20" required/>
                     </th>
                 </tr>
                 <tr>
                 <th>
-                <input type="submit" id="btn" value="Login" />
+                <input type="submit" id="btn" value="Giriş Yap" />
                 </th>
                 </tr>
             </table>
